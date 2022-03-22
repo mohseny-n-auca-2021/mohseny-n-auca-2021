@@ -4,7 +4,7 @@
 
 int main(void)
 {
-	puts("What is your full name ?");
+	puts("What is your full name?");
 
 	char fullName[512];
 	fgets(fullName, sizeof(fullName), stdin);
